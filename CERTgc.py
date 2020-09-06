@@ -9,7 +9,7 @@ TEXT_Y_PIXEL = 830
 TEXT_SIZE = 50
 TEMPLATE_IMG = "/content/certgen2/template.png"
 name = input('Please provide your registered name: ')
-FONT_TTF_FILE = "Montserrat-Light.otf"
+FONT_TTF_FILE = "/content/certgen2/Montserrat-Light.otf"
 
 def output_cert(name):
     img = Image.open(TEMPLATE_IMG)
